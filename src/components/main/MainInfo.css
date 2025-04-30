@@ -1,0 +1,9 @@
+.main-info {
+  background-image: url("../../assets/images/pattern-bg-mobile.png");
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: 768px) {
+    background-image: url("../../assets/images/pattern-bg-desktop.png");
+  }
+}
